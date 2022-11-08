@@ -29,7 +29,6 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
-  <project path="manifest" name="android_manifest" remote="nad" />
   <project path="art" name="android_art" remote="nad" />
   <project path="bionic" name="android_bionic" remote="nad" />
   <project path="libcore" name="android_libcore" remote="nad" />
@@ -58,7 +57,6 @@
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="nad" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="nad" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" remote="nad" />
-  <project path="external/mksh" name="android_external_mksh" remote="nad" />
   <project path="external/themelib" name="android_external_themelib" remote="nad" />
   <project path="external/selinux" name="android_external_selinux" remote="nad" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="nad" />
@@ -71,8 +69,6 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
-  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="nad" />
-  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="nad" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nad" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="nad" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />

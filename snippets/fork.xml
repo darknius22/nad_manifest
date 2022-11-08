@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="fork"
+           fetch="https://github.com/IDN-Labs/"
+           revision="12.1" />
+
+  <project path="manifest" name="android_manifest" remote="fork" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="fork" />
+  <project path="external/mksh" name="android_external_mksh" remote="fork" />
+  <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="fork" />
+  <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="fork" />
+
+</manifest>
