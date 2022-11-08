@@ -11,6 +11,7 @@
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="fork" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="fork" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="fork" />
+  <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="fork" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="fork" />
 
 </manifest>
