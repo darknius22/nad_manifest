@@ -51,11 +51,9 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/expat" />
-  <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/libjpeg-turbo" />
-  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
