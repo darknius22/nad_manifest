@@ -145,7 +145,6 @@
   <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="nad" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nad" />
   <project path="packages/modules/adb" name="android_packages_modules_adb" remote="nad" />
-  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="nad" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="nad" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="nad" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="nad" />
