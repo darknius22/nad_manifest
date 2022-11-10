@@ -5,15 +5,43 @@
            fetch="https://github.com/IDN-Labs/"
            revision="12.1" />
 
+  <!-- Build -->
+  <project path="build/make" name="android_build" remote="fork" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh"/>
+    <linkfile src="target" dest="build/target"/>
+    <linkfile src="tools" dest="build/tools"/>
+  </project>
+
   <project path="manifest" name="android_manifest" remote="fork" />
+
+  <!-- External -->
   <project path="external/libcxx" name="android_external_libcxx" remote="fork" />
   <project path="external/mksh" name="android_external_mksh" remote="fork" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="fork" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="fork" />
   <project path="frameworks/libs/net" name="android_frameworks_libs_net" remote="fork" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="fork" />
+
+  <!-- Packages -->
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="fork" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="fork" />
+  <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="fork" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="fork" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="fork" />
+
+  <!-- System -->
+  <project path="system/bt" name="android_system_bt" remote="fork" />
+
+  <!-- Vendor -->
   <project path="vendor/lawnicons" name="android_vendor_lawnicons" remote="fork" />
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="fork" />
   <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="fork" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="fork" />
 
 </manifest>
